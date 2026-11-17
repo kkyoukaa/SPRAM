@@ -72,6 +72,3 @@ cd frontend && npm run build && node test-format.mjs
 
 Ikuti `docs/acceptance.md` untuk kriteria penerimaan. Lulus unit test tidak berarti siap produksi; periksa RBAC backend, persistensi setelah restart, batch parsial, formula injection, promosi/rollback, aksesibilitas, dan performa. Tampilan waktu menggunakan Asia/Jakarta (WIB), sedangkan database menyimpan UTC.
 
-## Keamanan saat push GitHub
-
-`.gitignore` mengecualikan `data/`, `artifacts/`, `.venv/`, `frontend/node_modules/`, `frontend/dist/`, `.env`, dan log. Setelah menjalankan `git init` di folder proyek ini, periksa `git status` sebelum push; file di luar folder repository (`../data.csv`, dokumen laporan) tidak masuk otomatis. **Jangan commit** kredensial, database SQLite, dataset mahasiswa, kunci API, model artefak privat, atau `.env`. URL repository belum dicantumkan karena belum ada alamat GitHub yang diberikan; setelah push, salin URL repository ke Lampiran G bila dibutuhkan.
