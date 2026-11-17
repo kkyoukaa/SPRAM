@@ -17,13 +17,13 @@ Sistem Prediksi Risiko Akademik Mahasiswa (SPRAM) adalah prototipe akademik untu
 | `data/` | Dataset unggahan, SQLite, dan kredensial demo lokal; **tidak untuk Git**. |
 | `artifacts/` | Model dan metrik eksperimen lokal; **tidak untuk Git**. |
 
-Folder proyek ini bernama `file-server-up-github/`, di dalam `/home/haruu/Project/Web/Proyek Kecerdasan Buatan/` (nama direktori induk memang mengandung spasi). Folder ini **belum memiliki repository Git**; jalankan `git init` di sini jika ingin menjadikannya akar repository sebelum push. Berkas di dalamnya merupakan salinan kode sumber; data dan kredensial lokal tidak disertakan. `data.csv` asli dan dokumen PRD berada satu tingkat di atas folder ini pada tata letak lokal; keduanya tidak otomatis termasuk saat folder ini dijadikan repository dan di-push. Unduh dataset dari UCI Machine Learning Repository, lalu tempatkan sebagai `../data.csv` atau berikan path lewat `--dataset` saat melatih. Dataset memakai pemisah titik koma (`;`) dan berisi 4.424 baris, 36 fitur serta label `Target`. SHA-256 berkas yang digunakan dalam laporan: `3ef126de5cefff26eb11fbb4237f1a1401cb64b488e2f1d598c23cedeb4c45ae`. Pastikan lisensi dataset dipatuhi; jangan unggah data privat.
+Berkas di dalamnya merupakan salinan kode sumber; data dan kredensial lokal tidak disertakan. `data.csv` asli dan dokumen PRD berada satu tingkat di atas folder ini pada tata letak lokal; keduanya tidak otomatis termasuk saat folder ini dijadikan repository dan di-push. Unduh dataset dari UCI Machine Learning Repository, lalu tempatkan sebagai `../data.csv` atau berikan path lewat `--dataset` saat melatih. Dataset memakai pemisah titik koma (`;`) dan berisi 4.424 baris, 36 fitur serta label `Target`. SHA-256 berkas yang digunakan dalam laporan: `3ef126de5cefff26eb11fbb4237f1a1401cb64b488e2f1d598c23cedeb4c45ae`. Pastikan lisensi dataset dipatuhi; jangan unggah data privat.
 
 ## Persyaratan
 
-Python 3.11, Node.js dan npm, serta akses ke dataset untuk pelatihan. Dependensi Python dipatok di `requirements.txt`; dependensi frontend di `frontend/package.json` dan lockfile. Masuk ke folder proyek dengan `cd "/home/haruu/Project/Web/Proyek Kecerdasan Buatan/file-server-up-github"`; tanda kutip wajib karena nama direktori induk mengandung spasi. Perintah di bawah dijalankan dari folder tersebut, kecuali yang memakai `cd frontend`.
+Python 3.11, Node.js dan npm, serta akses ke dataset untuk pelatihan. Dependensi Python dipatok di `requirements.txt`; dependensi frontend di `frontend/package.json` dan lockfile. Perintah di bawah dijalankan dari folder tersebut, kecuali yang memakai `cd frontend`.
 
-## Menyiapkan dan menjalankan
+## Menyiapkan dan Menjalankan
 
 ```bash
 python3.11 -m venv .venv
@@ -51,7 +51,7 @@ Setelah melatih, periksa `artifacts/<tahap>-<algoritma>-<versi>/metrics.json` un
 
 Pemilihan kandidat di hasil eksperimen tidak sama dengan aktivasi otomatis Main Model. Promosi model untuk aplikasi dilakukan melalui alur Admin dan audit log.
 
-## Lapisan aturan dan penjelasan
+## Lapisan Aturan dan Penjelasan
 
 `backend/dictionary.json` dan `backend/dictionary.py` menerjemahkan label fitur serta nilai kode. `backend/expert.py` memuat delapan aturan dan forward chaining. Halaman Detail Mahasiswa menampilkan risiko, faktor, konsultasi, dan tindak lanjut. Status penanganan (`cases`) terpisah dari risiko model. Fitur sensitif dan makro tidak diizinkan sebagai kondisi aturan. Rincian: `docs/v2.md`.
 
