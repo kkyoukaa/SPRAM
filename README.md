@@ -2,7 +2,7 @@
 
 Sistem Prediksi Risiko Akademik Mahasiswa (SPRAM) adalah prototipe akademik untuk memberi sinyal risiko dan mendukung pendampingan mahasiswa. Dataset eksperimen: UCI *Predict Students' Dropout and Academic Success* (ID 697, CC BY 4.0). Data berasal dari Portugal; hasilnya **belum membuktikan validitas pada mahasiswa Indonesia**. Sistem bukan alat keputusan otomatis untuk penerimaan, sanksi, beasiswa, kelulusan, atau status akademik. Jangan masukkan data mahasiswa nyata tanpa izin dan pengamanan yang sesuai.
 
-## Struktur proyek
+## Struktur File Proyek
 
 | Lokasi | Isi |
 | --- | --- |
@@ -43,7 +43,7 @@ Jika dataset berada di path lain:
 
 Aplikasi secara bawaan mencari dataset di `../data.csv` untuk tugas pelatihan dari UI. Jika menempatkan dataset di tempat lain, jalankan pelatihan lewat CLI seperti di atas; sesuaikan konfigurasi aplikasi bila fitur pelatihan dari UI akan dipakai.
 
-## Eksperimen dan bukti hasil
+## Eksperimen dan Bukti Hasil
 
 Ada dua tahap: `intake` memakai 24 fitur nonsemester, `academic_update` memakai 36 fitur sampai semester dua. Masing-masing membandingkan Logistic Regression, Random Forest, dan XGBoost. Split terstratifikasi 85:15 dengan seed 42 menghasilkan 3.760 baris latih dan 664 baris uji. Validasi silang tiga lipatan pada data latih bukan tiga pengulangan independen. Artefak yang tersedia mencatat **satu pelatihan per tahap**, bukan eksperimen multi-seed. Jangan mengklaim simpangan baku antarpengulangan atau generalisasi ke populasi baru.
 
