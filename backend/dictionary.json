@@ -1,0 +1,626 @@
+{
+ "version": "1.0",
+ "features": {
+  "Marital status": {
+   "label": "Status pernikahan",
+   "group": "Penerimaan & demografi",
+   "factor_type": "sensitif",
+   "help": "",
+   "values": {
+    "1": "Lajang",
+    "2": "Menikah",
+    "3": "Duda/janda (ditinggal wafat)",
+    "4": "Bercerai",
+    "5": "Hidup bersama (facto union)",
+    "6": "Berpisah secara hukum"
+   }
+  },
+  "Application mode": {
+   "label": "Jalur pendaftaran",
+   "group": "Penerimaan & demografi",
+   "factor_type": "konteks",
+   "help": "",
+   "values": {
+    "1": "Tahap 1 - jalur umum",
+    "2": "Jalur khusus peraturan 612/93",
+    "5": "Tahap 1 - jalur khusus Kepulauan Azores",
+    "7": "Lulusan perguruan tinggi lain",
+    "10": "Jalur khusus peraturan 854-B/99",
+    "854": "Jalur khusus B/99",
+    "15": "Mahasiswa internasional (sarjana)",
+    "16": "Tahap 1 - jalur khusus Kepulauan Madeira",
+    "17": "Tahap 2 - jalur umum",
+    "18": "Tahap 3 - jalur umum",
+    "26": "Jalur khusus peraturan 533-A/99",
+    "533": "Pindahan dari institusi lain",
+    "27": "Jalur khusus institusi lain",
+    "39": "Pendaftar berusia di atas 23 tahun",
+    "42": "Pindahan",
+    "43": "Pindah program studi",
+    "44": "Pemegang diploma spesialisasi teknologi",
+    "51": "Pindah institusi/program studi",
+    "53": "Pemegang diploma program singkat",
+    "57": "Pindah institusi/program studi (internasional)"
+   }
+  },
+  "Application order": {
+   "label": "Urutan pilihan pendaftaran",
+   "group": "Penerimaan & demografi",
+   "factor_type": "dapat_ditindaklanjuti",
+   "help": "0 = pilihan pertama, 9 = pilihan terakhir",
+   "template": {
+    "naik": "Program studi ini pilihan ke-{urutan} saat pendaftaran",
+    "turun": "Program studi ini pilihan ke-{urutan} saat pendaftaran"
+   }
+  },
+  "Course": {
+   "label": "Program studi",
+   "group": "Penerimaan & demografi",
+   "factor_type": "konteks",
+   "help": "",
+   "values": {
+    "33": "Teknologi Produksi Biofuel",
+    "171": "Animasi dan Desain Multimedia",
+    "8014": "Pelayanan Sosial (kelas malam)",
+    "9003": "Agronomi",
+    "9070": "Desain Komunikasi",
+    "9085": "Keperawatan Hewan",
+    "9119": "Teknik Informatika",
+    "9130": "Budidaya Kuda",
+    "9147": "Manajemen",
+    "9238": "Pelayanan Sosial",
+    "9254": "Pariwisata",
+    "9500": "Keperawatan",
+    "9556": "Kesehatan Gigi dan Mulut",
+    "9670": "Manajemen Periklanan dan Pemasaran",
+    "9773": "Jurnalistik dan Komunikasi",
+    "9853": "Pendidikan Dasar",
+    "9991": "Manajemen (kelas malam)"
+   }
+  },
+  "Daytime/evening attendance": {
+   "label": "Waktu kuliah",
+   "group": "Penerimaan & demografi",
+   "factor_type": "dapat_ditindaklanjuti",
+   "help": "Siang / Malam",
+   "values": {
+    "0": "Malam",
+    "1": "Siang"
+   },
+   "template": {
+    "naik": "Kuliah di kelas malam",
+    "turun": "Kuliah di kelas siang"
+   }
+  },
+  "Previous qualification": {
+   "label": "Pendidikan sebelumnya",
+   "group": "Penerimaan & demografi",
+   "factor_type": "konteks",
+   "help": "",
+   "values": {
+    "1": "Pendidikan menengah/SMA atau setara",
+    "2": "Sarjana",
+    "3": "Pendidikan tinggi",
+    "4": "Magister",
+    "5": "Doktor",
+    "6": "Pernah mengikuti pendidikan tinggi",
+    "9": "Kelas 12 tidak selesai",
+    "10": "Kelas 11 tidak selesai",
+    "12": "Pendidikan lain setara kelas 11",
+    "14": "Kelas 10",
+    "15": "Kelas 10 tidak selesai",
+    "19": "Pendidikan dasar tingkat 3 atau setara",
+    "38": "Pendidikan dasar tingkat 2 atau setara",
+    "39": "Spesialisasi teknologi",
+    "40": "Sarjana siklus pertama",
+    "42": "Pendidikan tinggi teknik/profesi",
+    "43": "Magister siklus kedua"
+   }
+  },
+  "Previous qualification (grade)": {
+   "label": "Nilai pendidikan sebelumnya",
+   "group": "Penerimaan & demografi",
+   "factor_type": "konteks",
+   "help": "Skala 0–200"
+  },
+  "Nacionality": {
+   "label": "Kewarganegaraan",
+   "group": "Penerimaan & demografi",
+   "factor_type": "sensitif",
+   "help": "",
+   "values": {
+    "1": "Portugal",
+    "2": "Jerman",
+    "6": "Spanyol",
+    "11": "Italia",
+    "13": "Belanda",
+    "14": "Inggris",
+    "17": "Lituania",
+    "21": "Angola",
+    "22": "Tanjung Verde",
+    "24": "Guinea",
+    "25": "Mozambik",
+    "26": "Sao Tome dan Principe",
+    "32": "Turki",
+    "41": "Brasil",
+    "62": "Rumania",
+    "100": "Moldova",
+    "101": "Meksiko",
+    "103": "Ukraina",
+    "105": "Rusia",
+    "108": "Kuba",
+    "109": "Kolombia"
+   }
+  },
+  "Mother's qualification": {
+   "label": "Pendidikan ibu",
+   "group": "Penerimaan & demografi",
+   "factor_type": "sensitif",
+   "help": "",
+   "values": {
+    "1": "Pendidikan menengah/SMA atau setara",
+    "2": "Sarjana",
+    "3": "Pendidikan tinggi",
+    "4": "Magister",
+    "5": "Doktor",
+    "6": "Pernah mengikuti pendidikan tinggi",
+    "9": "Kelas 12 tidak selesai",
+    "10": "Kelas 11 tidak selesai",
+    "11": "Kelas 7 (sistem lama)",
+    "12": "Pendidikan lain setara kelas 11",
+    "14": "Kelas 10",
+    "18": "Pendidikan perdagangan umum",
+    "19": "Pendidikan dasar tingkat 3 atau setara",
+    "22": "Pendidikan teknik/profesi",
+    "26": "Kelas 7",
+    "27": "Tingkat 2 sekolah menengah umum",
+    "29": "Kelas 9 tidak selesai",
+    "30": "Kelas 8",
+    "34": "Tidak diketahui",
+    "35": "Tidak dapat membaca atau menulis",
+    "36": "Dapat membaca tanpa menyelesaikan kelas 4",
+    "37": "Pendidikan dasar tingkat 1 atau setara",
+    "38": "Pendidikan dasar tingkat 2 atau setara",
+    "39": "Spesialisasi teknologi",
+    "40": "Sarjana siklus pertama",
+    "41": "Studi tinggi spesialis",
+    "42": "Pendidikan tinggi teknik/profesi",
+    "43": "Magister siklus kedua",
+    "44": "Doktor siklus ketiga"
+   }
+  },
+  "Father's qualification": {
+   "label": "Pendidikan ayah",
+   "group": "Penerimaan & demografi",
+   "factor_type": "sensitif",
+   "help": "",
+   "values": {
+    "1": "Pendidikan menengah/SMA atau setara",
+    "2": "Sarjana",
+    "3": "Pendidikan tinggi",
+    "4": "Magister",
+    "5": "Doktor",
+    "6": "Pernah mengikuti pendidikan tinggi",
+    "9": "Kelas 12 tidak selesai",
+    "10": "Kelas 11 tidak selesai",
+    "11": "Kelas 7 (sistem lama)",
+    "12": "Pendidikan lain setara kelas 11",
+    "13": "Tahun kedua sekolah menengah lanjutan",
+    "14": "Kelas 10",
+    "18": "Pendidikan perdagangan umum",
+    "19": "Pendidikan dasar tingkat 3 atau setara",
+    "20": "Sekolah menengah lanjutan",
+    "22": "Pendidikan teknik/profesi",
+    "25": "Sekolah menengah lanjutan tidak selesai",
+    "26": "Kelas 7",
+    "27": "Tingkat 2 sekolah menengah umum",
+    "29": "Kelas 9 tidak selesai",
+    "30": "Kelas 8",
+    "31": "Administrasi dan perdagangan umum",
+    "33": "Akuntansi dan administrasi lanjutan",
+    "34": "Tidak diketahui",
+    "35": "Tidak dapat membaca atau menulis",
+    "36": "Dapat membaca tanpa menyelesaikan kelas 4",
+    "37": "Pendidikan dasar tingkat 1 atau setara",
+    "38": "Pendidikan dasar tingkat 2 atau setara",
+    "39": "Spesialisasi teknologi",
+    "40": "Sarjana siklus pertama",
+    "41": "Studi tinggi spesialis",
+    "42": "Pendidikan tinggi teknik/profesi",
+    "43": "Magister siklus kedua",
+    "44": "Doktor siklus ketiga"
+   }
+  },
+  "Mother's occupation": {
+   "label": "Pekerjaan ibu",
+   "group": "Penerimaan & demografi",
+   "factor_type": "sensitif",
+   "help": "",
+   "values": {
+    "0": "Pelajar/mahasiswa",
+    "1": "Pimpinan, pejabat, atau manajer",
+    "2": "Tenaga ahli profesional dan ilmiah",
+    "3": "Teknisi tingkat menengah",
+    "4": "Staf administrasi",
+    "5": "Layanan pribadi, keamanan, atau penjualan",
+    "6": "Petani, nelayan, atau pekerja kehutanan terampil",
+    "7": "Pekerja terampil industri, konstruksi, atau kerajinan",
+    "8": "Operator mesin atau perakitan",
+    "9": "Pekerja tidak terampil",
+    "10": "Angkatan bersenjata",
+    "90": "Lainnya",
+    "99": "Tidak diisi",
+    "122": "Tenaga kesehatan profesional",
+    "123": "Guru",
+    "125": "Tenaga ahli teknologi informasi dan komunikasi",
+    "131": "Teknisi sains atau teknik tingkat menengah",
+    "132": "Teknisi kesehatan tingkat menengah",
+    "134": "Teknisi hukum, sosial, olahraga, atau budaya",
+    "141": "Staf kantor, sekretaris, atau operator data",
+    "143": "Operator data, akuntansi, statistik, atau keuangan",
+    "144": "Staf pendukung administrasi lainnya",
+    "151": "Pekerja layanan pribadi",
+    "152": "Penjual",
+    "153": "Pekerja perawatan pribadi",
+    "171": "Pekerja konstruksi terampil",
+    "173": "Pekerja percetakan, instrumen presisi, perhiasan, atau kerajinan",
+    "175": "Pekerja pengolahan makanan, kayu, pakaian, atau kerajinan",
+    "191": "Petugas kebersihan",
+    "192": "Pekerja tidak terampil pertanian, perikanan, atau kehutanan",
+    "193": "Pekerja tidak terampil industri, konstruksi, manufaktur, atau transportasi",
+    "194": "Asisten penyiapan makanan"
+   }
+  },
+  "Father's occupation": {
+   "label": "Pekerjaan ayah",
+   "group": "Penerimaan & demografi",
+   "factor_type": "sensitif",
+   "help": "",
+   "values": {
+    "0": "Pelajar/mahasiswa",
+    "1": "Pimpinan, pejabat, atau manajer",
+    "2": "Tenaga ahli profesional dan ilmiah",
+    "3": "Teknisi tingkat menengah",
+    "4": "Staf administrasi",
+    "5": "Layanan pribadi, keamanan, atau penjualan",
+    "6": "Petani, nelayan, atau pekerja kehutanan terampil",
+    "7": "Pekerja terampil industri, konstruksi, atau kerajinan",
+    "8": "Operator mesin atau perakitan",
+    "9": "Pekerja tidak terampil",
+    "10": "Angkatan bersenjata",
+    "90": "Lainnya",
+    "99": "Tidak diisi",
+    "101": "Perwira angkatan bersenjata",
+    "102": "Sersan angkatan bersenjata",
+    "103": "Personel angkatan bersenjata lainnya",
+    "112": "Direktur layanan administrasi atau komersial",
+    "114": "Direktur hotel, katering, perdagangan, atau layanan",
+    "121": "Tenaga ahli sains, matematika, atau teknik",
+    "122": "Tenaga kesehatan profesional",
+    "123": "Guru",
+    "124": "Tenaga ahli keuangan, akuntansi, atau administrasi",
+    "131": "Teknisi sains atau teknik tingkat menengah",
+    "132": "Teknisi kesehatan tingkat menengah",
+    "134": "Teknisi hukum, sosial, olahraga, atau budaya",
+    "135": "Teknisi teknologi informasi dan komunikasi",
+    "141": "Staf kantor, sekretaris, atau operator data",
+    "143": "Operator data, akuntansi, statistik, atau keuangan",
+    "144": "Staf pendukung administrasi lainnya",
+    "151": "Pekerja layanan pribadi",
+    "152": "Penjual",
+    "153": "Pekerja perawatan pribadi",
+    "154": "Petugas perlindungan dan keamanan",
+    "161": "Petani atau peternak terampil berorientasi pasar",
+    "163": "Petani, peternak, nelayan, atau pemburu subsisten",
+    "171": "Pekerja konstruksi terampil",
+    "172": "Pekerja terampil metalurgi atau pengerjaan logam",
+    "174": "Pekerja terampil listrik atau elektronik",
+    "175": "Pekerja pengolahan makanan, kayu, pakaian, atau kerajinan",
+    "181": "Operator instalasi atau mesin tetap",
+    "182": "Pekerja perakitan",
+    "183": "Pengemudi atau operator alat bergerak",
+    "192": "Pekerja tidak terampil pertanian, perikanan, atau kehutanan",
+    "193": "Pekerja tidak terampil industri, konstruksi, manufaktur, atau transportasi",
+    "194": "Asisten penyiapan makanan",
+    "195": "Pedagang kaki lima atau penyedia jasa jalanan"
+   }
+  },
+  "Admission grade": {
+   "label": "Nilai penerimaan",
+   "group": "Penerimaan & demografi",
+   "factor_type": "konteks",
+   "help": "Skala 0–200",
+   "percentile": "rendah"
+  },
+  "Displaced": {
+   "label": "Mahasiswa perantau",
+   "group": "Penerimaan & demografi",
+   "factor_type": "dapat_ditindaklanjuti",
+   "help": "Tinggal jauh dari daerah asal (definisi mengikuti dataset)",
+   "values": {
+    "0": "Tidak",
+    "1": "Ya"
+   },
+   "template": {
+    "naik": "Mahasiswa perantau, jauh dari daerah asal",
+    "turun": "Tinggal di daerah asal"
+   }
+  },
+  "Educational special needs": {
+   "label": "Kebutuhan pendidikan khusus",
+   "group": "Penerimaan & demografi",
+   "factor_type": "sensitif",
+   "help": "Ya / Tidak",
+   "values": {
+    "0": "Tidak",
+    "1": "Ya"
+   }
+  },
+  "Debtor": {
+   "label": "Memiliki tunggakan",
+   "group": "Biaya & ekonomi",
+   "factor_type": "dapat_ditindaklanjuti",
+   "help": "Ya / Tidak",
+   "values": {
+    "0": "Tidak",
+    "1": "Ya"
+   },
+   "template": {
+    "naik": "Tercatat memiliki tunggakan biaya kuliah",
+    "turun": "Tidak memiliki tunggakan biaya kuliah"
+   }
+  },
+  "Tuition fees up to date": {
+   "label": "Biaya kuliah lunas tepat waktu",
+   "group": "Biaya & ekonomi",
+   "factor_type": "dapat_ditindaklanjuti",
+   "help": "Ya / Tidak",
+   "values": {
+    "0": "Tidak",
+    "1": "Ya"
+   },
+   "template": {
+    "naik": "Biaya kuliah belum lunas tepat waktu",
+    "turun": "Biaya kuliah lunas tepat waktu"
+   }
+  },
+  "Gender": {
+   "label": "Jenis kelamin",
+   "group": "Biaya & ekonomi",
+   "factor_type": "sensitif",
+   "help": "Laki-laki / Perempuan",
+   "values": {
+    "0": "Perempuan",
+    "1": "Laki-laki"
+   }
+  },
+  "Scholarship holder": {
+   "label": "Penerima beasiswa",
+   "group": "Biaya & ekonomi",
+   "factor_type": "dapat_ditindaklanjuti",
+   "help": "Ya / Tidak",
+   "values": {
+    "0": "Tidak",
+    "1": "Ya"
+   },
+   "template": {
+    "naik": "Tidak menerima beasiswa",
+    "turun": "Menerima beasiswa"
+   }
+  },
+  "Age at enrollment": {
+   "label": "Usia saat mendaftar",
+   "group": "Biaya & ekonomi",
+   "factor_type": "konteks",
+   "help": "Tahun",
+   "template": {
+    "naik": "Mulai kuliah pada usia {usia} tahun",
+    "turun": "Mulai kuliah pada usia {usia} tahun"
+   },
+   "percentile": "tinggi"
+  },
+  "International": {
+   "label": "Mahasiswa internasional",
+   "group": "Biaya & ekonomi",
+   "factor_type": "sensitif",
+   "help": "Ya / Tidak",
+   "values": {
+    "0": "Tidak",
+    "1": "Ya"
+   }
+  },
+  "Curricular units 1st sem (credited)": {
+   "label": "Semester 1: unit diakui",
+   "group": "Performa akademik",
+   "factor_type": "dapat_ditindaklanjuti",
+   "help": "Jumlah unit/mata kuliah yang diakui"
+  },
+  "Curricular units 1st sem (enrolled)": {
+   "label": "Semester 1: unit diambil",
+   "group": "Performa akademik",
+   "factor_type": "dapat_ditindaklanjuti",
+   "help": "Jumlah unit/mata kuliah yang diambil",
+   "template": {
+    "naik": "Hanya mengambil {diambil} mata kuliah pada semester 1",
+    "turun": "Mengambil {diambil} mata kuliah pada semester 1"
+   },
+   "template_tokens": {
+    "diambil": "Curricular units 1st sem (enrolled)",
+    "lulus": "Curricular units 1st sem (approved)"
+   }
+  },
+  "Curricular units 1st sem (evaluations)": {
+   "label": "Semester 1: jumlah evaluasi diikuti",
+   "group": "Performa akademik",
+   "factor_type": "dapat_ditindaklanjuti",
+   "help": "Jumlah evaluasi/ujian yang diikuti"
+  },
+  "Curricular units 1st sem (approved)": {
+   "label": "Semester 1: unit lulus",
+   "group": "Performa akademik",
+   "factor_type": "dapat_ditindaklanjuti",
+   "help": "Jumlah unit/mata kuliah yang lulus",
+   "template": {
+    "naik": "Hanya {lulus} dari {diambil} mata kuliah semester 1 yang lulus",
+    "turun": "{lulus} dari {diambil} mata kuliah semester 1 berhasil lulus"
+   },
+   "template_tokens": {
+    "diambil": "Curricular units 1st sem (enrolled)",
+    "lulus": "Curricular units 1st sem (approved)"
+   },
+   "percentile": "rendah"
+  },
+  "Curricular units 1st sem (grade)": {
+   "label": "Semester 1: nilai rata-rata",
+   "group": "Performa akademik",
+   "factor_type": "dapat_ditindaklanjuti",
+   "help": "Skala 0–20, bukan IPK 0–4",
+   "template": {
+    "naik": "Nilai rata-rata semester 1 hanya {nilai} dari skala 0–20",
+    "turun": "Nilai rata-rata semester 1 mencapai {nilai} dari skala 0–20"
+   },
+   "template_tokens": {
+    "diambil": "Curricular units 1st sem (enrolled)",
+    "lulus": "Curricular units 1st sem (approved)"
+   },
+   "percentile": "rendah"
+  },
+  "Curricular units 1st sem (without evaluations)": {
+   "label": "Semester 1: unit tanpa evaluasi",
+   "group": "Performa akademik",
+   "factor_type": "dapat_ditindaklanjuti",
+   "help": "Jumlah unit tanpa evaluasi",
+   "template": {
+    "naik": "{tanpa} mata kuliah semester 1 tanpa evaluasi",
+    "turun": "Tidak ada mata kuliah semester 1 tanpa evaluasi"
+   },
+   "template_tokens": {
+    "diambil": "Curricular units 1st sem (enrolled)",
+    "lulus": "Curricular units 1st sem (approved)"
+   }
+  },
+  "Curricular units 2nd sem (credited)": {
+   "label": "Semester 2: unit diakui",
+   "group": "Performa akademik",
+   "factor_type": "dapat_ditindaklanjuti",
+   "help": "Jumlah unit/mata kuliah yang diakui"
+  },
+  "Curricular units 2nd sem (enrolled)": {
+   "label": "Semester 2: unit diambil",
+   "group": "Performa akademik",
+   "factor_type": "dapat_ditindaklanjuti",
+   "help": "Jumlah unit/mata kuliah yang diambil",
+   "template": {
+    "naik": "Hanya mengambil {diambil} mata kuliah pada semester 2",
+    "turun": "Mengambil {diambil} mata kuliah pada semester 2"
+   },
+   "template_tokens": {
+    "diambil": "Curricular units 2nd sem (enrolled)",
+    "lulus": "Curricular units 2nd sem (approved)"
+   }
+  },
+  "Curricular units 2nd sem (evaluations)": {
+   "label": "Semester 2: jumlah evaluasi diikuti",
+   "group": "Performa akademik",
+   "factor_type": "dapat_ditindaklanjuti",
+   "help": "Jumlah evaluasi/ujian yang diikuti"
+  },
+  "Curricular units 2nd sem (approved)": {
+   "label": "Semester 2: unit lulus",
+   "group": "Performa akademik",
+   "factor_type": "dapat_ditindaklanjuti",
+   "help": "Jumlah unit/mata kuliah yang lulus",
+   "template": {
+    "naik": "Hanya {lulus} dari {diambil} mata kuliah semester 2 yang lulus",
+    "turun": "{lulus} dari {diambil} mata kuliah semester 2 berhasil lulus"
+   },
+   "template_tokens": {
+    "diambil": "Curricular units 2nd sem (enrolled)",
+    "lulus": "Curricular units 2nd sem (approved)"
+   },
+   "percentile": "rendah"
+  },
+  "Curricular units 2nd sem (grade)": {
+   "label": "Semester 2: nilai rata-rata",
+   "group": "Performa akademik",
+   "factor_type": "dapat_ditindaklanjuti",
+   "help": "Skala 0–20, bukan IPK 0–4",
+   "template": {
+    "naik": "Nilai rata-rata semester 2 hanya {nilai} dari skala 0–20",
+    "turun": "Nilai rata-rata semester 2 mencapai {nilai} dari skala 0–20"
+   },
+   "template_tokens": {
+    "diambil": "Curricular units 2nd sem (enrolled)",
+    "lulus": "Curricular units 2nd sem (approved)"
+   },
+   "percentile": "rendah"
+  },
+  "Curricular units 2nd sem (without evaluations)": {
+   "label": "Semester 2: unit tanpa evaluasi",
+   "group": "Performa akademik",
+   "factor_type": "dapat_ditindaklanjuti",
+   "help": "Jumlah unit tanpa evaluasi",
+   "template": {
+    "naik": "{tanpa} mata kuliah semester 2 tanpa evaluasi",
+    "turun": "Tidak ada mata kuliah semester 2 tanpa evaluasi"
+   },
+   "template_tokens": {
+    "diambil": "Curricular units 2nd sem (enrolled)",
+    "lulus": "Curricular units 2nd sem (approved)"
+   }
+  },
+  "Unemployment rate": {
+   "label": "Tingkat pengangguran",
+   "group": "Konteks makro",
+   "factor_type": "konteks",
+   "help": "Persen, kondisi makro"
+  },
+  "Inflation rate": {
+   "label": "Tingkat inflasi",
+   "group": "Konteks makro",
+   "factor_type": "konteks",
+   "help": "Persen, kondisi makro"
+  },
+  "GDP": {
+   "label": "Produk domestik bruto (PDB)",
+   "group": "Konteks makro",
+   "factor_type": "konteks",
+   "help": "Kondisi makro"
+  }
+ },
+ "tokens": {
+  "urutan": "Application order",
+  "usia": "Age at enrollment",
+  "nilai": "self",
+  "tanpa": "self"
+ },
+ "ui_terms": {
+  "Dropout": "Putus kuliah",
+  "Enrolled": "Masih aktif",
+  "Graduate": "Lulus",
+  "probabilitas": "Peluang",
+  "snapshot": "Tanggal pencatatan data",
+  "shap": "Faktor yang paling mempengaruhi prediksi",
+  "high": "Tinggi",
+  "medium": "Sedang",
+  "low": "Rendah"
+ },
+ "handling_statuses": [
+  "Belum ditangani",
+  "Dijadwalkan",
+  "Sudah konseling",
+  "Dipantau",
+  "Penanganan selesai"
+ ],
+ "groups": [
+  "Penerimaan & demografi",
+  "Biaya & ekonomi",
+  "Performa akademik",
+  "Konteks makro"
+ ],
+ "factor_types": {
+  "dapat_ditindaklanjuti": "Dapat ditindaklanjuti",
+  "konteks": "Konteks",
+  "sensitif": "Sensitif"
+ }
+}

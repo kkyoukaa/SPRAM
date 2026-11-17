@@ -1,0 +1,886 @@
+{
+  "Application mode": [
+    {
+      "value": 1,
+      "label": "Tahap 1 - jalur umum"
+    },
+    {
+      "value": 2,
+      "label": "Jalur khusus peraturan 612/93"
+    },
+    {
+      "value": 5,
+      "label": "Tahap 1 - jalur khusus Kepulauan Azores"
+    },
+    {
+      "value": 7,
+      "label": "Lulusan perguruan tinggi lain"
+    },
+    {
+      "value": 10,
+      "label": "Jalur khusus peraturan 854-B/99"
+    },
+    {
+      "value": 854,
+      "label": "Jalur khusus B/99"
+    },
+    {
+      "value": 15,
+      "label": "Mahasiswa internasional (sarjana)"
+    },
+    {
+      "value": 16,
+      "label": "Tahap 1 - jalur khusus Kepulauan Madeira"
+    },
+    {
+      "value": 17,
+      "label": "Tahap 2 - jalur umum"
+    },
+    {
+      "value": 18,
+      "label": "Tahap 3 - jalur umum"
+    },
+    {
+      "value": 26,
+      "label": "Jalur khusus peraturan 533-A/99"
+    },
+    {
+      "value": 533,
+      "label": "Rencana pendidikan berbeda"
+    },
+    {
+      "value": 27,
+      "label": "Jalur khusus institusi lain"
+    },
+    {
+      "value": 533,
+      "label": "Pindahan dari institusi lain"
+    },
+    {
+      "value": 39,
+      "label": "Pendaftar berusia di atas 23 tahun"
+    },
+    {
+      "value": 42,
+      "label": "Pindahan"
+    },
+    {
+      "value": 43,
+      "label": "Pindah program studi"
+    },
+    {
+      "value": 44,
+      "label": "Pemegang diploma spesialisasi teknologi"
+    },
+    {
+      "value": 51,
+      "label": "Pindah institusi/program studi"
+    },
+    {
+      "value": 53,
+      "label": "Pemegang diploma program singkat"
+    },
+    {
+      "value": 57,
+      "label": "Pindah institusi/program studi (internasional)"
+    }
+  ],
+  "Course": [
+    {
+      "value": 33,
+      "label": "Teknologi Produksi Biofuel"
+    },
+    {
+      "value": 171,
+      "label": "Animasi dan Desain Multimedia"
+    },
+    {
+      "value": 8014,
+      "label": "Pelayanan Sosial (kelas malam)"
+    },
+    {
+      "value": 9003,
+      "label": "Agronomi"
+    },
+    {
+      "value": 9070,
+      "label": "Desain Komunikasi"
+    },
+    {
+      "value": 9085,
+      "label": "Keperawatan Hewan"
+    },
+    {
+      "value": 9119,
+      "label": "Teknik Informatika"
+    },
+    {
+      "value": 9130,
+      "label": "Budidaya Kuda"
+    },
+    {
+      "value": 9147,
+      "label": "Manajemen"
+    },
+    {
+      "value": 9238,
+      "label": "Pelayanan Sosial"
+    },
+    {
+      "value": 9254,
+      "label": "Pariwisata"
+    },
+    {
+      "value": 9500,
+      "label": "Keperawatan"
+    },
+    {
+      "value": 9556,
+      "label": "Kesehatan Gigi dan Mulut"
+    },
+    {
+      "value": 9670,
+      "label": "Manajemen Periklanan dan Pemasaran"
+    },
+    {
+      "value": 9773,
+      "label": "Jurnalistik dan Komunikasi"
+    },
+    {
+      "value": 9853,
+      "label": "Pendidikan Dasar"
+    },
+    {
+      "value": 9991,
+      "label": "Manajemen (kelas malam)"
+    }
+  ],
+  "Previous qualification": [
+    {
+      "value": 1,
+      "label": "Pendidikan menengah/SMA atau setara"
+    },
+    {
+      "value": 2,
+      "label": "Sarjana"
+    },
+    {
+      "value": 3,
+      "label": "Pendidikan tinggi"
+    },
+    {
+      "value": 4,
+      "label": "Magister"
+    },
+    {
+      "value": 5,
+      "label": "Doktor"
+    },
+    {
+      "value": 6,
+      "label": "Pernah mengikuti pendidikan tinggi"
+    },
+    {
+      "value": 9,
+      "label": "Kelas 12 tidak selesai"
+    },
+    {
+      "value": 10,
+      "label": "Kelas 11 tidak selesai"
+    },
+    {
+      "value": 12,
+      "label": "Pendidikan lain setara kelas 11"
+    },
+    {
+      "value": 14,
+      "label": "Kelas 10"
+    },
+    {
+      "value": 15,
+      "label": "Kelas 10 tidak selesai"
+    },
+    {
+      "value": 19,
+      "label": "Pendidikan dasar tingkat 3 atau setara"
+    },
+    {
+      "value": 38,
+      "label": "Pendidikan dasar tingkat 2 atau setara"
+    },
+    {
+      "value": 39,
+      "label": "Spesialisasi teknologi"
+    },
+    {
+      "value": 40,
+      "label": "Sarjana siklus pertama"
+    },
+    {
+      "value": 42,
+      "label": "Pendidikan tinggi teknik/profesi"
+    },
+    {
+      "value": 43,
+      "label": "Magister siklus kedua"
+    }
+  ],
+  "Nacionality": [
+    {
+      "value": 1,
+      "label": "Portugal"
+    },
+    {
+      "value": 2,
+      "label": "Jerman"
+    },
+    {
+      "value": 6,
+      "label": "Spanyol"
+    },
+    {
+      "value": 11,
+      "label": "Italia"
+    },
+    {
+      "value": 13,
+      "label": "Belanda"
+    },
+    {
+      "value": 14,
+      "label": "Inggris"
+    },
+    {
+      "value": 17,
+      "label": "Lituania"
+    },
+    {
+      "value": 21,
+      "label": "Angola"
+    },
+    {
+      "value": 22,
+      "label": "Tanjung Verde"
+    },
+    {
+      "value": 24,
+      "label": "Guinea"
+    },
+    {
+      "value": 25,
+      "label": "Mozambik"
+    },
+    {
+      "value": 26,
+      "label": "Sao Tome dan Principe"
+    },
+    {
+      "value": 32,
+      "label": "Turki"
+    },
+    {
+      "value": 41,
+      "label": "Brasil"
+    },
+    {
+      "value": 62,
+      "label": "Rumania"
+    },
+    {
+      "value": 100,
+      "label": "Moldova"
+    },
+    {
+      "value": 101,
+      "label": "Meksiko"
+    },
+    {
+      "value": 103,
+      "label": "Ukraina"
+    },
+    {
+      "value": 105,
+      "label": "Rusia"
+    },
+    {
+      "value": 108,
+      "label": "Kuba"
+    },
+    {
+      "value": 109,
+      "label": "Kolombia"
+    }
+  ],
+  "Mother's qualification": [
+    {
+      "value": 1,
+      "label": "Pendidikan menengah/SMA atau setara"
+    },
+    {
+      "value": 2,
+      "label": "Sarjana"
+    },
+    {
+      "value": 3,
+      "label": "Pendidikan tinggi"
+    },
+    {
+      "value": 4,
+      "label": "Magister"
+    },
+    {
+      "value": 5,
+      "label": "Doktor"
+    },
+    {
+      "value": 6,
+      "label": "Pernah mengikuti pendidikan tinggi"
+    },
+    {
+      "value": 9,
+      "label": "Kelas 12 tidak selesai"
+    },
+    {
+      "value": 10,
+      "label": "Kelas 11 tidak selesai"
+    },
+    {
+      "value": 11,
+      "label": "Kelas 7 (sistem lama)"
+    },
+    {
+      "value": 12,
+      "label": "Pendidikan lain setara kelas 11"
+    },
+    {
+      "value": 14,
+      "label": "Kelas 10"
+    },
+    {
+      "value": 18,
+      "label": "Pendidikan perdagangan umum"
+    },
+    {
+      "value": 19,
+      "label": "Pendidikan dasar tingkat 3 atau setara"
+    },
+    {
+      "value": 22,
+      "label": "Pendidikan teknik/profesi"
+    },
+    {
+      "value": 26,
+      "label": "Kelas 7"
+    },
+    {
+      "value": 27,
+      "label": "Tingkat 2 sekolah menengah umum"
+    },
+    {
+      "value": 29,
+      "label": "Kelas 9 tidak selesai"
+    },
+    {
+      "value": 30,
+      "label": "Kelas 8"
+    },
+    {
+      "value": 34,
+      "label": "Tidak diketahui"
+    },
+    {
+      "value": 35,
+      "label": "Tidak dapat membaca atau menulis"
+    },
+    {
+      "value": 36,
+      "label": "Dapat membaca tanpa menyelesaikan kelas 4"
+    },
+    {
+      "value": 37,
+      "label": "Pendidikan dasar tingkat 1 atau setara"
+    },
+    {
+      "value": 38,
+      "label": "Pendidikan dasar tingkat 2 atau setara"
+    },
+    {
+      "value": 39,
+      "label": "Spesialisasi teknologi"
+    },
+    {
+      "value": 40,
+      "label": "Sarjana siklus pertama"
+    },
+    {
+      "value": 41,
+      "label": "Studi tinggi spesialis"
+    },
+    {
+      "value": 42,
+      "label": "Pendidikan tinggi teknik/profesi"
+    },
+    {
+      "value": 43,
+      "label": "Magister siklus kedua"
+    },
+    {
+      "value": 44,
+      "label": "Doktor siklus ketiga"
+    }
+  ],
+  "Father's qualification": [
+    {
+      "value": 1,
+      "label": "Pendidikan menengah/SMA atau setara"
+    },
+    {
+      "value": 2,
+      "label": "Sarjana"
+    },
+    {
+      "value": 3,
+      "label": "Pendidikan tinggi"
+    },
+    {
+      "value": 4,
+      "label": "Magister"
+    },
+    {
+      "value": 5,
+      "label": "Doktor"
+    },
+    {
+      "value": 6,
+      "label": "Pernah mengikuti pendidikan tinggi"
+    },
+    {
+      "value": 9,
+      "label": "Kelas 12 tidak selesai"
+    },
+    {
+      "value": 10,
+      "label": "Kelas 11 tidak selesai"
+    },
+    {
+      "value": 11,
+      "label": "Kelas 7 (sistem lama)"
+    },
+    {
+      "value": 12,
+      "label": "Pendidikan lain setara kelas 11"
+    },
+    {
+      "value": 13,
+      "label": "Tahun kedua sekolah menengah lanjutan"
+    },
+    {
+      "value": 14,
+      "label": "Kelas 10"
+    },
+    {
+      "value": 18,
+      "label": "Pendidikan perdagangan umum"
+    },
+    {
+      "value": 19,
+      "label": "Pendidikan dasar tingkat 3 atau setara"
+    },
+    {
+      "value": 20,
+      "label": "Sekolah menengah lanjutan"
+    },
+    {
+      "value": 22,
+      "label": "Pendidikan teknik/profesi"
+    },
+    {
+      "value": 25,
+      "label": "Sekolah menengah lanjutan tidak selesai"
+    },
+    {
+      "value": 26,
+      "label": "Kelas 7"
+    },
+    {
+      "value": 27,
+      "label": "Tingkat 2 sekolah menengah umum"
+    },
+    {
+      "value": 29,
+      "label": "Kelas 9 tidak selesai"
+    },
+    {
+      "value": 30,
+      "label": "Kelas 8"
+    },
+    {
+      "value": 31,
+      "label": "Administrasi dan perdagangan umum"
+    },
+    {
+      "value": 33,
+      "label": "Akuntansi dan administrasi lanjutan"
+    },
+    {
+      "value": 34,
+      "label": "Tidak diketahui"
+    },
+    {
+      "value": 35,
+      "label": "Tidak dapat membaca atau menulis"
+    },
+    {
+      "value": 36,
+      "label": "Dapat membaca tanpa menyelesaikan kelas 4"
+    },
+    {
+      "value": 37,
+      "label": "Pendidikan dasar tingkat 1 atau setara"
+    },
+    {
+      "value": 38,
+      "label": "Pendidikan dasar tingkat 2 atau setara"
+    },
+    {
+      "value": 39,
+      "label": "Spesialisasi teknologi"
+    },
+    {
+      "value": 40,
+      "label": "Sarjana siklus pertama"
+    },
+    {
+      "value": 41,
+      "label": "Studi tinggi spesialis"
+    },
+    {
+      "value": 42,
+      "label": "Pendidikan tinggi teknik/profesi"
+    },
+    {
+      "value": 43,
+      "label": "Magister siklus kedua"
+    },
+    {
+      "value": 44,
+      "label": "Doktor siklus ketiga"
+    }
+  ],
+  "Mother's occupation": [
+    {
+      "value": 0,
+      "label": "Pelajar/mahasiswa"
+    },
+    {
+      "value": 1,
+      "label": "Pimpinan, pejabat, atau manajer"
+    },
+    {
+      "value": 2,
+      "label": "Tenaga ahli profesional dan ilmiah"
+    },
+    {
+      "value": 3,
+      "label": "Teknisi tingkat menengah"
+    },
+    {
+      "value": 4,
+      "label": "Staf administrasi"
+    },
+    {
+      "value": 5,
+      "label": "Layanan pribadi, keamanan, atau penjualan"
+    },
+    {
+      "value": 6,
+      "label": "Petani, nelayan, atau pekerja kehutanan terampil"
+    },
+    {
+      "value": 7,
+      "label": "Pekerja terampil industri, konstruksi, atau kerajinan"
+    },
+    {
+      "value": 8,
+      "label": "Operator mesin atau perakitan"
+    },
+    {
+      "value": 9,
+      "label": "Pekerja tidak terampil"
+    },
+    {
+      "value": 10,
+      "label": "Angkatan bersenjata"
+    },
+    {
+      "value": 90,
+      "label": "Lainnya"
+    },
+    {
+      "value": 99,
+      "label": "Tidak diisi"
+    },
+    {
+      "value": 122,
+      "label": "Tenaga kesehatan profesional"
+    },
+    {
+      "value": 123,
+      "label": "Guru"
+    },
+    {
+      "value": 125,
+      "label": "Tenaga ahli teknologi informasi dan komunikasi"
+    },
+    {
+      "value": 131,
+      "label": "Teknisi sains atau teknik tingkat menengah"
+    },
+    {
+      "value": 132,
+      "label": "Teknisi kesehatan tingkat menengah"
+    },
+    {
+      "value": 134,
+      "label": "Teknisi hukum, sosial, olahraga, atau budaya"
+    },
+    {
+      "value": 141,
+      "label": "Staf kantor, sekretaris, atau operator data"
+    },
+    {
+      "value": 143,
+      "label": "Operator data, akuntansi, statistik, atau keuangan"
+    },
+    {
+      "value": 144,
+      "label": "Staf pendukung administrasi lainnya"
+    },
+    {
+      "value": 151,
+      "label": "Pekerja layanan pribadi"
+    },
+    {
+      "value": 152,
+      "label": "Penjual"
+    },
+    {
+      "value": 153,
+      "label": "Pekerja perawatan pribadi"
+    },
+    {
+      "value": 171,
+      "label": "Pekerja konstruksi terampil"
+    },
+    {
+      "value": 173,
+      "label": "Pekerja percetakan, instrumen presisi, perhiasan, atau kerajinan"
+    },
+    {
+      "value": 175,
+      "label": "Pekerja pengolahan makanan, kayu, pakaian, atau kerajinan"
+    },
+    {
+      "value": 191,
+      "label": "Petugas kebersihan"
+    },
+    {
+      "value": 192,
+      "label": "Pekerja tidak terampil pertanian, perikanan, atau kehutanan"
+    },
+    {
+      "value": 193,
+      "label": "Pekerja tidak terampil industri, konstruksi, manufaktur, atau transportasi"
+    },
+    {
+      "value": 194,
+      "label": "Asisten penyiapan makanan"
+    }
+  ],
+  "Father's occupation": [
+    {
+      "value": 0,
+      "label": "Pelajar/mahasiswa"
+    },
+    {
+      "value": 1,
+      "label": "Pimpinan, pejabat, atau manajer"
+    },
+    {
+      "value": 2,
+      "label": "Tenaga ahli profesional dan ilmiah"
+    },
+    {
+      "value": 3,
+      "label": "Teknisi tingkat menengah"
+    },
+    {
+      "value": 4,
+      "label": "Staf administrasi"
+    },
+    {
+      "value": 5,
+      "label": "Layanan pribadi, keamanan, atau penjualan"
+    },
+    {
+      "value": 6,
+      "label": "Petani, nelayan, atau pekerja kehutanan terampil"
+    },
+    {
+      "value": 7,
+      "label": "Pekerja terampil industri, konstruksi, atau kerajinan"
+    },
+    {
+      "value": 8,
+      "label": "Operator mesin atau perakitan"
+    },
+    {
+      "value": 9,
+      "label": "Pekerja tidak terampil"
+    },
+    {
+      "value": 10,
+      "label": "Angkatan bersenjata"
+    },
+    {
+      "value": 90,
+      "label": "Lainnya"
+    },
+    {
+      "value": 99,
+      "label": "Tidak diisi"
+    },
+    {
+      "value": 101,
+      "label": "Perwira angkatan bersenjata"
+    },
+    {
+      "value": 102,
+      "label": "Sersan angkatan bersenjata"
+    },
+    {
+      "value": 103,
+      "label": "Personel angkatan bersenjata lainnya"
+    },
+    {
+      "value": 112,
+      "label": "Direktur layanan administrasi atau komersial"
+    },
+    {
+      "value": 114,
+      "label": "Direktur hotel, katering, perdagangan, atau layanan"
+    },
+    {
+      "value": 121,
+      "label": "Tenaga ahli sains, matematika, atau teknik"
+    },
+    {
+      "value": 122,
+      "label": "Tenaga kesehatan profesional"
+    },
+    {
+      "value": 123,
+      "label": "Guru"
+    },
+    {
+      "value": 124,
+      "label": "Tenaga ahli keuangan, akuntansi, atau administrasi"
+    },
+    {
+      "value": 131,
+      "label": "Teknisi sains atau teknik tingkat menengah"
+    },
+    {
+      "value": 132,
+      "label": "Teknisi kesehatan tingkat menengah"
+    },
+    {
+      "value": 134,
+      "label": "Teknisi hukum, sosial, olahraga, atau budaya"
+    },
+    {
+      "value": 135,
+      "label": "Teknisi teknologi informasi dan komunikasi"
+    },
+    {
+      "value": 141,
+      "label": "Staf kantor, sekretaris, atau operator data"
+    },
+    {
+      "value": 143,
+      "label": "Operator data, akuntansi, statistik, atau keuangan"
+    },
+    {
+      "value": 144,
+      "label": "Staf pendukung administrasi lainnya"
+    },
+    {
+      "value": 151,
+      "label": "Pekerja layanan pribadi"
+    },
+    {
+      "value": 152,
+      "label": "Penjual"
+    },
+    {
+      "value": 153,
+      "label": "Pekerja perawatan pribadi"
+    },
+    {
+      "value": 154,
+      "label": "Petugas perlindungan dan keamanan"
+    },
+    {
+      "value": 161,
+      "label": "Petani atau peternak terampil berorientasi pasar"
+    },
+    {
+      "value": 163,
+      "label": "Petani, peternak, nelayan, atau pemburu subsisten"
+    },
+    {
+      "value": 171,
+      "label": "Pekerja konstruksi terampil"
+    },
+    {
+      "value": 172,
+      "label": "Pekerja terampil metalurgi atau pengerjaan logam"
+    },
+    {
+      "value": 174,
+      "label": "Pekerja terampil listrik atau elektronik"
+    },
+    {
+      "value": 175,
+      "label": "Pekerja pengolahan makanan, kayu, pakaian, atau kerajinan"
+    },
+    {
+      "value": 181,
+      "label": "Operator instalasi atau mesin tetap"
+    },
+    {
+      "value": 182,
+      "label": "Pekerja perakitan"
+    },
+    {
+      "value": 183,
+      "label": "Pengemudi atau operator alat bergerak"
+    },
+    {
+      "value": 192,
+      "label": "Pekerja tidak terampil pertanian, perikanan, atau kehutanan"
+    },
+    {
+      "value": 193,
+      "label": "Pekerja tidak terampil industri, konstruksi, manufaktur, atau transportasi"
+    },
+    {
+      "value": 194,
+      "label": "Asisten penyiapan makanan"
+    },
+    {
+      "value": 195,
+      "label": "Pedagang kaki lima atau penyedia jasa jalanan"
+    }
+  ]
+}

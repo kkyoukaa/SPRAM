@@ -1,0 +1,5 @@
+import React from 'react';
+export default function CohortTrend({trend=[],distribution={}}){
+ const rows=Array.isArray(trend)?trend:[];
+ return <section className="panel padded"><div className="two-columns"><div><h2>Distribusi kelas</h2><p className="muted small">Label terbesar berbeda dari tingkat risiko.</p>{['Dropout','Enrolled','Graduate'].map(c=><div className="timeline-item" key={c}><span>{c}</span><strong>{distribution[c]||0}</strong></div>)}</div><div><h2>Aktivitas snapshot</h2><p className="muted small">Riwayat berasal dari input aplikasi, bukan histori asli UCI.</p>{rows.length?<div className="table-wrap"><table><thead><tr><th>Tanggal</th><th>Prediksi</th><th>Rata-rata P(Dropout)</th></tr></thead><tbody>{rows.slice(-7).map((r,i)=><tr key={i}><td>{r.date||r.day||r.snapshot_date}</td><td>{r.count||r.total||0}</td><td>{r.avg_dropout!=null?`${(r.avg_dropout*100).toFixed(1)}%`:'—'}</td></tr>)}</tbody></table></div>:<p className="muted small">Belum ada snapshot tersimpan.</p>}</div></div></section>;
+}
